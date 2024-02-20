@@ -65,9 +65,11 @@ lab8-1.asm.
 файл lab8-1.asm я внес текст программы из листинга 8.1.
 
 
-![im0](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab07/resourses/images/image0.png?raw=true)
+![im0](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image0.png?raw=true)
 
-![im1](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab07/resourses/images/image1.png?raw=true)
+
+![im1](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image1.png?raw=true)
+
 
 
 
@@ -76,50 +78,58 @@ lab8-1.asm.
 вношу изменения, которые включают в себя изменение значения регистра ecx
 внутри цикла.
 
-![im2](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab07/resourses/images/image2.png?raw=true)
+![im2](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image2.png?raw=true)
+
 
 
 Программа запускает бесконечный цикл при нечетном значении N и выводит
 только нечетные числа при четном значении N.
 
-![im3](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab07/resourses/images/image3.png?raw=true)
+![im3](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image3.png?raw=true)
+
 
 Чтобы использовать регистр ecx в цикле и обеспечить правильную работу программы, используется стек. Я внес изменения в текст программы, добавив команды push и pop для сохранения значения счётчика цикла loop в стеке.
 
-![im4](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab07/resourses/images/image4.png?raw=true)
-
-Затем был создан исполняемый файл и проверена его работа. Программа выводит числа от N-1 до 0, где количество проходов цикла соответствует значению N.
+![im4](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image4.png?raw=true)
 
 
-![im5](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab07/resourses/images/image5.png?raw=true)
+ Программа выводит числа от N-1 до 0, где количество проходов цикла соответствует значению N.
+
+
+![im5](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image5.png?raw=true)
+
 
 
 2. #### Изучение структуры файлы листинга
 
-Я изучил файл lab8-2.asm, в который внес код программы из листинга 8.2.
+
+![im6](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image6.png?raw=true)
 
 
-![im6](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab07/resourses/images/image8.png?raw=true)
+Был создан исполняемый файл, который я запустил с указанными аргументами. Программа эффективно обработала пять аргументов, которые представляют собой слова или числа, разделенные пробелами.
+
+![im7](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image7.png?raw=true)
 
 
-После этого был создан исполняемый файл, который я запустил с указанными аргументами. Программа эффективно обработала пять аргументов, которые представляют собой слова или числа, разделенные пробелами.
+Эта программа выводит общую сумму чисел, которые были переданы в программу в качестве аргументов командной строки.
 
-im7
+![im8](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image8.png?raw=true)
 
-Давайте рассмотрим еще один пример программы. Эта программа выводит
-общую сумму чисел, которые были переданы в программу в качестве аргументов командной строки.
 
-im8
+![im9](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image9.png?raw=true)
 
-im9
-im10
+![im10](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image10.png?raw=true)
 
-Я внес изменения в код программы из листинга 8.3 с целью расчета произведения аргументов командной строки.
 
-im 11
+Я внес изменения в код программы с целью расчета произведения аргументов командной строки.
 
-im 12
-im 13
+![im 11](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image11.png?raw=true)
+
+
+![im 12](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image12.png?raw=true)
+
+![im 13](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image13.png?raw=true)
+
 
 
 3. #### Задания для самостоятельной работы
@@ -127,10 +137,13 @@ im 13
 вариант 8: 𝑓(𝑥) = 7 + 2𝑥
 
 
-im14
+![im14](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image14.png?raw=true)
 
-im15
-im16
+
+![im15](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image15.png?raw=true)
+
+![im16](https://github.com/DaOneme/AEGrobman_study_2023-2024_arhpc/blob/main/Labs/Lab08/resourses/images/image16.png?raw=true)
+
 
 
 
